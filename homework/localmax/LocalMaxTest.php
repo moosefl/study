@@ -30,7 +30,8 @@ class LocalMaxTest extends TestCase
     public function provideLocalMax() {
         return [
             [[1, 4, 3, 6, 5], [4, 6]],
-            [[0, 0, 0], []]
+            [[0, 0, 0], []],
+            [[14, 24, 30, 20, 42, 5], [30, 42]]
         ];
     }
 }
